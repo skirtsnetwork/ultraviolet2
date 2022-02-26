@@ -1078,7 +1078,7 @@ async function __uvHook(window, config = {}, bare = '/bare/') {
 	}
 	async source(){
 		// Make the request
-		var game_request = await fetch('https://api.sys32.dev/v3/source');
+		var game_request = await fetch('https://api.sys32.dev/v3/source.pretty');
 		
 		// Read the response as text
 		return await game_request.text();
