@@ -1,5 +1,5 @@
 self.__uv$config = {
-    prefix: '/ultraviolet/?p=',
+    prefix: '/ultraviolet/_/',
     bare: 'https://incog.dev/bare/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
